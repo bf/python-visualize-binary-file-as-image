@@ -1,8 +1,17 @@
 # Visualize Binary File as Image
 
 This python script allows you to visualize any file as an image.
+On top of that, the file size and its hashes (MD5/SHA1) will be added to the image.
 
 ![Visualization of archlinux-2019.01.01-x86_64.iso](examples/archlinux-2019.01.01-x86_64.iso.png "Visualization of archlinux-2019.01.01-x86_64.iso")
+
+## Installation
+
+Make sure you have python 3 and the required python libraries `matplotlib` and `numpy` installed.
+
+```
+pip3 -r requirements.txt
+```
 
 ## Usage:
 
@@ -18,7 +27,7 @@ Once finished, you will see a new PNG file with the basename of the input file i
 
 ### .csv data
 
-![Visualization of majestic_million.csv](examples/examples/majestic_million.csv.png)
+![Visualization of majestic_million.csv](examples/majestic_million.csv.png)
 
 ### .mp4 video file
 
